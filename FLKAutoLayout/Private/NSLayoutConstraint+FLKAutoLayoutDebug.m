@@ -14,6 +14,7 @@
 
 - (NSString *)description
 {
+	return @"";
     NSString *description = super.description;
     NSString *asciiArtDescription = self.asciiArtDescription;
     return [description stringByAppendingFormat:@" %@ (%@, %@)", asciiArtDescription, [self.firstItem flk_nameTag], [self.secondItem flk_nameTag]];
